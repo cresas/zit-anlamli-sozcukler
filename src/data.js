@@ -254,4 +254,5 @@ var activityData = {
         "jumpInfo22a": "katkısıdır",
         "jumpInfo22b": "eğitici topluma."
     }
+    
 };
