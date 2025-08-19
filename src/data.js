@@ -12,85 +12,165 @@ var activityData = {
         "ALEATORIO": "no",
         "NUMERO_PREGUNTAS_VISIBLES": 10,
         "PREGUNTAS": [
-            {
-                "ENUNCIADO": "Ağır sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Hafif", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "İyi sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Kötü", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Neşeli", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "Erken", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Cesur sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Korkak", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Genç", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "Barış", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Genç sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Yaşlı", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Aydınlık", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Aşağı sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Yukarı", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Erken sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Geç", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Neşeli", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Barış sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Savaş", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Genç", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "Yaşlı", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Neşeli sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Üzgün", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Akşam sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Sabah", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"}
-                ]
-            },
-            {
-                "ENUNCIADO": "Çalışkan sözcüğünün zıt anlamlısını bulun.",
-                "RESPUESTAS": [
-                    {"RESPUESTA": "Tembel", "RESPUESTA_CORRECTA": "si"},
-                    {"RESPUESTA": "Cesur", "RESPUESTA_CORRECTA": "no"},
-                    {"RESPUESTA": "Neşeli", "RESPUESTA_CORRECTA": "no"}
-                ]
+        {
+            "ENUNCIADO": "Ağır sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Hafif", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Alt sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Üst", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Kötü", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Aşağı sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Yukarı", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "İyi sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Kötü", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Neşeli", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Erken", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Ödül sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Ceza", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Akşam sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Sabah", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Acemi sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Usta", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Cesur", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Korkak", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Hayal sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Gerçek", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Küçük sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Erken", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Gece", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Çalışkan sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Tembel", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Genç", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Yaşlı", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Cesur sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Korkak", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Genç", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Barış", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Genç sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Yaşlı", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Aydınlık", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Barış sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Savaş", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Genç", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Yaşlı", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Aynı sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Farklı", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Aydınlık sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Karanlık", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Kötü", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Gece sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Gündüz", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Neşeli", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Üzgün", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Neşeli sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Üzgün", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Erken", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Gece", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Erken sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Geç", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Neşeli", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "İyi", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Kuru sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Yaş", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"}
+            ]
+        },
+        {
+            "ENUNCIADO": "Boş sözcüğünün zıt anlamlısını bulun.",
+            "RESPUESTAS": [
+                {"RESPUESTA": "Dolu", "RESPUESTA_CORRECTA": "si"},
+                {"RESPUESTA": "Küçük", "RESPUESTA_CORRECTA": "no"},
+                {"RESPUESTA": "Büyük", "RESPUESTA_CORRECTA": "no"}
+            ]
             }
         ],
         "OCULTAR_REDES": "1",
